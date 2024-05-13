@@ -1,0 +1,101 @@
+/* Styles of components of birthdays webpage */
+
+body
+{
+    background-color: #fff; /* White */
+    color: #212529; /* Grayish */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+header
+{
+    background-color: #008080; /* Teal */
+    color: #fff; /* White */
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    width: 90%;
+}
+
+.section
+{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+}
+
+h1
+{
+    /* Sans serif as second option in case of incompatibily of browser with Montserrat*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+button
+{
+    background-color: #d9edff; /* Light bluish */
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition-duration: 0.1s;
+    vertical-align: middle;
+}
+
+button:hover
+{
+    background-color: #20b2aa; /* Light sea green */
+    color: #fff; /* White */
+}
+
+input
+{
+    line-height: 2;
+    width: 20%;
+}
+
+input:hover
+{
+    border: 2px solid #000; /* Black */
+}
+
+select
+{
+    line-height: 2;
+    height: 2rem;
+}
+
+table
+{
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(179, 208, 255, 0.3)
+}

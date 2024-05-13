@@ -1,0 +1,50 @@
+<!-- Trivia webpage -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Link in Montserrat font and stylesheet -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <!-- Link in javascript code -->
+        <script src="index.js"></script>
+        <!-- Make page mobile friendly -->
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <header>
+            <h1>Trivia!</h1>
+        </header>
+
+        <main>
+            <!-- Multiple choice question -->
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+                <!-- Empty paragraph where feedback to answer will appear -->
+                <p id="feedback_multiple_choice"></p>
+                <button type="button">6 people per 1 sheep</button>
+                <button type="button">3 people per 1 sheep</button>
+                <button type="button">1 person per 1 sheep</button>
+                <button type="button">1 person per 3 sheep</button>
+                <button id="correct" type="button">1 person per 5 sheep</button>  <!-- Correct question -->
+            </div>
+
+            <!-- Free response question -->
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+                <!-- Empty paragraph where feedback to answer will appear -->
+                <p id="feedback_free_response"></p>
+                <input autocomplete="off" placeholder="Answer" type="text">
+                <button type="submit">Check Answer</button>
+            </div>
+            <!-- New line to add some space on end of page after last question -->
+            <br>
+        </main>
+    </body>
+</html>

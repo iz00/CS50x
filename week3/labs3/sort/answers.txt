@@ -1,0 +1,11 @@
+sort1 uses: BUBBLE SORT
+
+How do you know?: Because the run time gets considerably lower in sorted lists, compared to random and reversed lists, which have average run times compared to other programs
+
+sort2 uses: MERGE SORT
+
+How do you know?: Because the run times are consistently fast in random, reversed, and sorted lists, compared to other programs
+
+sort3 uses: SELECTION SORT
+
+How do you know?: Because the run times are consistently average in random, reversed, and sorted lists, compared to other programs

@@ -1,0 +1,20 @@
+Variable height of type int
+
+Get int from user and stores it in height
+
+If height is less than 1 or more than 8
+
+    Go to line 3
+
+Variable i of type int receives value 1
+
+Print height minus i empty spaces ((height - i) * ' ')
+
+Print i hashes (i * '#')
+
+Print newline
+
+Increment i by 1
+
+If i is less than or equal to height
+    Go to line 11

@@ -1,0 +1,290 @@
+<!-- Page to show all birthdays in database and options to alter them -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- Link in Montserrat font and css stylesheet -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet">
+        <!-- Codification format is UTF-8 -->
+        <meta charset="utf-8">
+        <!-- Make page mobile friendly -->
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Birthdays</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Birthdays</h1>
+        </header>
+
+        <main>
+            <div class="section">
+
+                <h2>Add a Birthday</h2>
+                <!-- Add a form for users to submit a name, a month, and a day to add to birthdays -->
+                <form action="/" id="add" method="post">
+                    <input autocomplete="off" id="name" name="name" placeholder="Name" type="text">
+                    <select id="month" name="month">
+                        <option disabled selected value="">Month</option>
+                        <!-- Jinja loop to present all month options, coming from server's list -->
+                        {% for month in months %}
+                            <option value="{{ month }}">{{ month }}</option>
+                        {% endfor %}
+                    </select>
+                    <!-- Day option initially empty but options will appear depending on month selected -->
+                    <select id="day" name="day">
+                        <option disabled selected value="">Day</option>
+                    </select>
+                    <button type="submit">Add Birthday</button>
+                </form>
+            </div>
+
+            <div class="section">
+
+                <h2>All Birthdays</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Birthday (month/day)</th>
+                            <th>Options</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Loop through the database entries to display them in table -->
+                        {% for birthday in birthdays %}
+                            <tr>
+                                <td>{{ birthday.name }}</td>
+                                <td>{{ birthday.month}}/{{ birthday.day }}</td>
+                                <td>
+
+                                    <!-- Add a form for users to click to delete a birthday -->
+                                    <form action="/delete" method="post">
+                                        <input name="id" type="hidden" value="{{ birthday.id }}">
+                                        <button type="submit">Delete Birthday</button>
+                                    </form>
+
+                                    <br>
+                                    <button class="btn-edit" type="button">Edit Birthday</button>
+
+                                    <!-- Add a form for users to submit a name, a month, and a day to edit a birthday -->
+                                    <!-- The form is initially hidden but will appear when user chooses to edit birthday -->
+                                    <form action="/edit" class="edit" hidden method="post">
+                                        <input autocomplete="off" name="name" placeholder="Name" type="text">
+                                        <select class="months" name="month">
+                                            <option disabled selected value="">Month</option>
+                                            <!-- Jinja loop to present all month options, coming from server's list -->
+                                            {% for month in months %}
+                                                <option value="{{ month }}">{{ month }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <!-- Day option initially empty but options will appear depending on month selected -->
+                                        <select name="day">
+                                            <option disabled selected value="">Day</option>
+                                        </select>
+                                        <input name="id" type="hidden" value="{{ birthday.id }}">
+                                        <button type="submit">Edit Birthday</button>
+                                    </form>
+
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            </div>
+        </main>
+    </body>
+
+    <script>
+
+        // Script to fill the days select option, acording to month chosen
+
+        // Wait for DOM content to load
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Get the month select option on add birthday form
+            let months_add = document.querySelector('#month');
+
+            // Add an event listener for a change on the chosen option
+            months_add.addEventListener('change', function() {
+
+                // Get the day select option on add birthday form
+                let days = document.querySelector('#day');
+
+                // Get the available options for days
+                let options = days.options;
+
+                // Delete all options except the first, and select it
+                // Do this so that every time a new month is selected, the days available reset
+                while (options.length > 1) {
+                    days.remove(1);
+                }
+                options[0].selected = true;
+
+                // Get the selected month
+                let month = months_add.value;
+
+                // Initialize the amount of days of month to 31
+                let max_days = 31;
+
+                // Define the amount of days accordingly
+                if (month === 'February') {
+                    max_days = 28;
+                }
+                if (['April', 'June', 'September', 'November'].includes(month)) {
+                    max_days = 30;
+                }
+
+                // For each day the month has
+                for (let i = 1; i <= max_days; i++) {
+
+                    // Create a new option for each day
+                    let option = document.createElement('option');
+                    option.appendChild(document.createTextNode(i));
+                    option.setAttribute('value', i);
+
+                    // Add the new option to the days select option
+                    days.appendChild(option);
+                }
+            });
+
+            // Get all month select options on edit birthday forms
+            let months_edit = document.querySelectorAll('.months');
+
+            // Iterate through all month select options, through their indexes on the array
+            for (let i = 0; i < months_edit.length; i++) {
+
+                // Add event listeners for a change on the chosen option on each of them
+                months_edit[i].addEventListener('change', function() {
+
+                    // Get the day select option next to the month select option
+                    let days = months_edit[i].nextElementSibling;
+
+                    // Get the available options for days
+                    let options = days.options;
+
+                    // Delete all options except the first, and select it
+                    // Do this so that every time a new month is selected, the days available reset
+                    while (options.length > 1) {
+                        days.remove(1);
+                    }
+                    options[0].selected = true;
+
+                    // Get the selected month
+                    let month = months_edit[i].value;
+
+                    // Initialize the amount of days of month to 31
+                    let max_days = 31;
+
+                    // Define the amount of days accordingly
+                    if (month === 'February') {
+                        max_days = 28;
+                    }
+                    if (['April', 'June', 'September', 'November'].includes(month)) {
+                        max_days = 30;
+                    }
+
+                    // For each day the month has
+                    for (let i = 1; i <= max_days; i++) {
+
+                        // Create a new option for each day
+                        let option = document.createElement('option');
+                        option.appendChild(document.createTextNode(i));
+                        option.setAttribute('value', i);
+
+                        // Add the new option to the days select option
+                        days.appendChild(option);
+                    }
+                });
+            }
+        });
+
+    // Script to validate the birthday input client-side, for adding and editing
+
+    // Wait for DOM content to load
+    document.addEventListener('DOMContentLoaded', function() {
+
+        // Get the add birthday form and add an event listener for submiting it
+        document.querySelector('#add').addEventListener('submit', function(e) {
+
+            // Get name, month and day of form
+            let name = document.querySelector('#name').value;
+            let month = document.querySelector('#month').value;
+            let day = document.querySelector('#day').value;
+
+            // If all fields are filled, it's valid
+            if (name && month && day) { return; }
+
+            // Else, get a message of which field is empty
+            if (!day) { message = 'day'; }
+            if (!month) { message = 'month'; }
+            if (!name) { message = 'name'; }
+
+            // Alert of missing field
+            alert('Missing ' + message + '.');
+
+            // Prevent form from submitting
+            e.preventDefault();
+        });
+
+        // Get all the edit birthday forms
+        let forms = document.querySelectorAll('.edit');
+
+        // Iterate through all edit forms, through their indexes on the array
+        for (let i = 0; i < forms.length; i++) {
+
+            // Add event listeners for submit on each of them
+            forms[i].addEventListener('submit', function(e) {
+                // Get all elements of form
+                let form_elements = forms[i].elements;
+
+                // Get name, month and day of form
+                let name = form_elements[0].value;
+                let month = form_elements[1].value;
+                let day = form_elements[2].value;
+
+                // If all fields are filled, it's valid
+                if (name && month && day) { return; }
+
+                // Else, get a message of which field is empty
+                if (!day) { message = 'day'; }
+                if (!month) { message = 'month'; }
+                if (!name) { message = 'name'; }
+
+                // Alert of missing field
+                alert('Missing ' + message + '.');
+
+                // Prevent form from submitting
+                e.preventDefault();
+            });
+        }
+    });
+
+    // Script to show the edit form when the corresponding edit button is clicked
+
+    // Wait for DOM content to load
+    document.addEventListener('DOMContentLoaded', function() {
+
+        // Get all the edit buttons
+        let edit_buttons = document.querySelectorAll('.btn-edit');
+
+        // Iterate through all edit buttons, through their indexes on the array
+        for (let i = 0; i < edit_buttons.length; i++) {
+
+            // Add event listeners for click on each of them
+            edit_buttons[i].addEventListener('click', function() {
+
+                // When clicked, the button becomes hidden
+                edit_buttons[i].hidden = true;
+                // And the edit form appears
+                edit_buttons[i].nextElementSibling.hidden = false;
+            });
+        }
+    });
+
+    </script>
+</html>

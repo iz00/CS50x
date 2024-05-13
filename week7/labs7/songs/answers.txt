@@ -1,0 +1,10 @@
+Average energy: 0.65906
+Average valence: 0.484443
+Average danceability: 0.71646
+
+Therefore, this user's audio aura would be energetic and danceable, but with a low valence.
+
+This approach to calculate the user's audio aura may not be very effective because the algorithm is only considering
+the top 100 songs, and to some users that may not be very significative. Another situation would be that these are the
+top 100 songs the user has listened in the year, but in the last months they have started to listen to completely different
+songs, and since the algorithm is taking into account the whole year, the user's most recent preferences are ignored.

@@ -1,0 +1,53 @@
+HTML Tags:
+    a
+    br
+    body
+    button
+    div
+    footer
+    form
+    h1
+    h2
+    h3
+    h4
+    head
+    header
+    hr
+    html
+    img
+    input
+    li
+    link
+    main
+    meta
+    script
+    strong
+    title
+    ul
+
+CSS Properties:
+    background-color
+    border
+    border-bottom
+    border-bottom-left-radius
+    border-bottom-right-radius
+    border-radius
+    color
+    font-family
+    font-size
+    font-weight
+    height
+    line-height
+    margin-bottom
+    margin-left
+    margin-right
+    margin-top
+    outline
+    padding
+    text-align
+    transition-duration
+    vertical-align
+    width
+
+Javascript was used to add a greeting to the user after they typed and submitted their name, in a typewriter style.
+Bootstrap was used to add and style a navbar, an accordion, and a list.

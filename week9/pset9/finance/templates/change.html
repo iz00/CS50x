@@ -1,0 +1,25 @@
+<!-- Page for user to change the account's password -->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Change Password
+{% endblock %}
+
+{% block main %}
+    <form action="/change" method="post">
+        <div class="mb-3">
+            <input autofocus class="form-control mx-auto w-auto" name="current_password" placeholder="Current password" type="password">
+        </div>
+        <div class="mb-3">
+            <div class="alert alert-primary mb-3 text-center" role="alert">
+                Password must contain at least 1 number, 1 lowercase letter, 1 uppercase letter, 1 special character, and 8 characters in total
+            </div>
+            <input class="form-control mx-auto w-auto" name="new_password" placeholder="New Password" type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="confirmation" placeholder="New Password (again)" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Change Password</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,152 @@
+/* Styles of components of webpage introducing myself */
+
+/* General tag selectors for almost all pages */
+
+body
+{
+    background-color: #1b1f22; /* Dark grayish */
+    font-family: Monospace;
+    text-align: center;
+}
+
+h1
+{
+    color: #fff; /* White */
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+h2, h3
+{
+    color: #eee; /* Whitish */
+    margin-top: 1.5rem;
+}
+
+footer
+{
+    color: #d3d3d3; /* Light gray */
+    margin-top: 3rem;
+}
+
+hr
+{
+    color: #90ee90; /* Light green */
+}
+
+img
+{
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Tag selectors for homepage's input */
+
+input
+{
+    background-color: #fff; /* White */
+    border: 1px solid transparent;
+    border-bottom: 3px solid #90ee90; /* Light green */
+    border-radius: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition-duration: 0.1s;
+    vertical-align: middle;
+}
+
+input:hover
+{
+    background-color: #eafaea; /* Light greenish */
+}
+
+input:focus
+{
+    background-color: #fff; /* White */
+}
+
+/* Bootstrap's nav selectors */
+
+nav
+{
+    background-color: #90ee90; /* Light green */
+    border-bottom: 2px solid #006400; /* Dark green */
+    border-bottom-left-radius: 2rem 2rem;
+    border-bottom-right-radius: 2rem 2rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.nav-item
+{
+    font-size: 1.5rem;
+}
+
+.dropdown-item
+{
+    text-align: center;
+}
+
+/* ID selector for text-field on about page */
+#text-field
+{
+    border: 3px solid #90ee90; /* Light green */
+    border-radius: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    width: 70%;
+}
+
+/* Class selectors for Bootstrap's accordion on programming hobby page */
+
+.accordion
+{
+    /* Bootstrap's variables */
+    --bs-accordion-active-bg: #90ee90; /* Light green */
+    --bs-accordion-active-color: #000; /* Black */
+    --bs-accordion-bg: #1b1f22; /* Dark grayish */
+    --bs-accordion-border-color: #90ee90; /* Light green */
+    --bs-accordion-border-width: 3px;
+    --bs-accordion-btn-color: #eee; /* White */
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-color: #eee; /* White */
+
+    margin-bottom: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    text-align: justify;
+    width: 70%;
+}
+
+.accordion-button:hover
+{
+    /* Bootstrap's variable */
+    --bs-accordion-btn-bg: #90cc90; /* Light greenish */
+}
+
+/* Class selector for Bootstrap's list on others hobby page */
+.list-group
+{
+    /* Bootstrap's variables */
+    --bs-list-group-bg: #90ee90; /* Light green */
+    --bs-list-group-border-color: #008000; /* Green */
+    --bs-list-group-border-width: 3px;
+    --bs-list-group-color: #000; /* Black */
+
+    font-weight: bold;
+    margin-bottom: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 40%;
+}
