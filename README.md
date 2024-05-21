@@ -48,128 +48,128 @@
 
 ### [Week 1 - C](https://cs50.harvard.edu/x/weeks/1/)
 - [**Additional Practice 1**](https://cs50.harvard.edu/x/practice/#after-week-1):
-  - Debug
-  - Half
-  - Prime
+  - [Debug](https://github.com/iz00/CS50x/tree/main/week1/practice1/debug)
+  - [Half](https://github.com/iz00/CS50x/tree/main/week1/practice1/half)
+  - [Prime](https://github.com/iz00/CS50x/tree/main/week1/practice1/prime)
 - [**Lab 1**](https://cs50.harvard.edu/x/2023/labs/1/):
-  - Population Growth
+  - [Population Growth](https://github.com/iz00/CS50x/tree/main/week1/labs1/population)
 - [**Problem Set 1**](https://cs50.harvard.edu/x/2023/psets/1/):
-  - Hello
+  - [Hello](https://github.com/iz00/CS50x/tree/main/week1/pset1/hello)
   - Mario
-    - Less
-    - More
-  - Cash
-  - Credit
+    - [Less](https://github.com/iz00/CS50x/tree/main/week1/pset1/mario-less)
+    - [More](https://github.com/iz00/CS50x/tree/main/week1/pset1/mario-more)
+  - [Cash](https://github.com/iz00/CS50x/tree/main/week1/pset1/cash)
+  - [Credit](https://github.com/iz00/CS50x/tree/main/week1/pset1/credit)
 
 ##
 
 ### [Week 2 - Arrays](https://cs50.harvard.edu/x/weeks/2/)
 - [**Additional Practice 2**](https://cs50.harvard.edu/x/practice/#after-week-2):
-  - Hours
-  - N0 V0w3ls
-  - Password
+  - [Hours](https://github.com/iz00/CS50x/tree/main/week2/practice2/hours)
+  - [N0 V0w3ls](https://github.com/iz00/CS50x/tree/main/week2/practice2/no-vowels)
+  - [Password](https://github.com/iz00/CS50x/tree/main/week2/practice2/password)
 - [**Lab 2**](https://cs50.harvard.edu/x/2023/labs/2/):
-  - Scrabble
+  - [Scrabble](https://github.com/iz00/CS50x/tree/main/week2/labs2/scrabble)
 - [**Problem Set 2**](https://cs50.harvard.edu/x/2023/psets/2/):
-  - Readability
-  - Bulbs
-  - Caesar
-  - Substitution
-  - Wordle50
+  - [Readability](https://github.com/iz00/CS50x/tree/main/week2/pset2/readability)
+  - [Bulbs](https://github.com/iz00/CS50x/tree/main/week2/pset2/bulbs)
+  - [Caesar](https://github.com/iz00/CS50x/tree/main/week2/pset2/caesar)
+  - [Substitution](https://github.com/iz00/CS50x/tree/main/week2/pset2/substitution)
+  - [Wordle50](https://github.com/iz00/CS50x/tree/main/week2/pset2/wordle)
 
 ##
 
 ### [Week 3 - Algorithms](https://cs50.harvard.edu/x/weeks/3/)
 - [**Additional Practice 3**](https://cs50.harvard.edu/x/practice/#after-week-3):
-  - Recursive atoi
-  - Average Temperatures
-  - Max
-  - Snackbar
+  - [Recursive atoi](https://github.com/iz00/CS50x/tree/main/week3/practice3/atoi)
+  - [Average Temperatures](https://github.com/iz00/CS50x/tree/main/week3/practice3/temps)
+  - [Max](https://github.com/iz00/CS50x/tree/main/week3/practice3/max)
+  - [Snackbar](https://github.com/iz00/CS50x/tree/main/week3/practice3/snackbar)
 - [**Lab 3**](https://cs50.harvard.edu/x/2023/labs/3/):
-  - Sort
+  - [Sort](https://github.com/iz00/CS50x/tree/main/week3/labs3/sort)
 - [**Problem Set 3**](https://cs50.harvard.edu/x/2023/psets/3/):
-  - Pluraliy
-  - Runoff
-  - Tideman
+  - [Pluraliy](https://github.com/iz00/CS50x/tree/main/week3/pset3/plurality)
+  - [Runoff](https://github.com/iz00/CS50x/tree/main/week3/pset3/runoff)
+  - [Tideman](https://github.com/iz00/CS50x/tree/main/week3/pset3/tideman)
 
 ##
 
 ### [Week 4 - Memory](https://cs50.harvard.edu/x/weeks/4/)
 - [**Additional Practice 4**](https://cs50.harvard.edu/x/practice/#after-week-4):
-  - Bottom Up
-  - License
+  - [Bottom Up](https://github.com/iz00/CS50x/tree/main/week4/practice4/bottomup)
+  - [License](https://github.com/iz00/CS50x/tree/main/week4/practice4/license)
 - [**Lab 4**](https://cs50.harvard.edu/x/2023/labs/4/):
-  - Smiley
-  - Volume
+  - [Smiley](https://github.com/iz00/CS50x/tree/main/week4/labs4/smiley)
+  - [Volume](https://github.com/iz00/CS50x/tree/main/week4/labs4/volume)
 - [**Problem Set 4**](https://cs50.harvard.edu/x/2023/psets/4/):
   - Filter
-    - Less
-    - More
-  - Recover
-  - Reverse
+    - [Less](https://github.com/iz00/CS50x/tree/main/week4/pset4/filter-less)
+    - [More](https://github.com/iz00/CS50x/tree/main/week4/pset4/filter-more)
+  - [Recover](https://github.com/iz00/CS50x/tree/main/week4/pset4/recover)
+  - [Reverse](https://github.com/iz00/CS50x/tree/main/week4/pset4/reverse)
 
 ##
 
 ### [Week 5 - Data Structures](https://cs50.harvard.edu/x/weeks/5/)
 - [**Additional Practice 5**](https://cs50.harvard.edu/x/practice/#after-week-5):
-  - Trie
+  - [Trie](https://github.com/iz00/CS50x/tree/main/week5/practice5/trie)
 - [**Lab 5**](https://cs50.harvard.edu/x/2023/labs/5/):
-  - Inheritance
+  - [Inheritance](https://github.com/iz00/CS50x/tree/main/week5/labs5/inheritance)
 - [**Problem Set 5**](https://cs50.harvard.edu/x/2023/psets/5/):
-  - Speller
+  - [Speller](https://github.com/iz00/CS50x/tree/main/week5/pset5/speller)
 
 ##
 
 ### [Week 6 - Python](https://cs50.harvard.edu/x/weeks/6/)
 - [**Additional Practice 6**](https://cs50.harvard.edu/x/practice/#after-week-6):
-  - Bank
-  - Frank, Ian and Glen's Letters
-  - Jar
-  - Seven Day Average
-  - Taqueria
+  - [Bank](https://github.com/iz00/CS50x/tree/main/week6/practice6/bank)
+  - [Frank, Ian and Glen's Letters](https://github.com/iz00/CS50x/tree/main/week6/practice6/figlet)
+  - [Jar](https://github.com/iz00/CS50x/tree/main/week6/practice6/jar)
+  - [Seven Day Average](https://github.com/iz00/CS50x/tree/main/week6/practice6/seven-day-average)
+  - [Taqueria](https://github.com/iz00/CS50x/tree/main/week6/practice6/taqueria)
 - [**Lab 6**](https://cs50.harvard.edu/x/2023/labs/6/):
-  - World Cup
+  - [World Cup](https://github.com/iz00/CS50x/tree/main/week6/labs6/world-cup)
 - [**Problem Set 6**](https://cs50.harvard.edu/x/2024/psets/6/):
-  - Hello
+  - [Hello](https://github.com/iz00/CS50x/tree/main/week6/pset6/sentimental-hello)
   - Mario
-    - Less
-    - More
-  - Cash
-  - Credit
-  - Readability
-  - DNA
+    - [Less](https://github.com/iz00/CS50x/tree/main/week6/pset6/sentimental-mario-less)
+    - [More](https://github.com/iz00/CS50x/tree/main/week6/pset6/sentimental-mario-more)
+  - [Cash](https://github.com/iz00/CS50x/tree/main/week6/pset6/sentimental-cash)
+  - [Credit](https://github.com/iz00/CS50x/tree/main/week6/pset6/sentimental-credit)
+  - [Readability](https://github.com/iz00/CS50x/tree/main/week6/pset6/sentimental-readability)
+  - [DNA](https://github.com/iz00/CS50x/tree/main/week6/pset6/dna)
 
 ##
 
 ### [Week 7 - SQL](https://cs50.harvard.edu/x/weeks/7/)
 - [**Additional Practice 7**](https://cs50.harvard.edu/x/practice/#after-week-7):
-  - Favorites
-  - Hall of Prophecy
+  - [Favorites](https://github.com/iz00/CS50x/tree/main/week7/practice7/favorites)
+  - [Hall of Prophecy](https://github.com/iz00/CS50x/tree/main/week7/practice7/prophecy)
 - [**Lab 7**](https://cs50.harvard.edu/x/2023/labs/7/):
-  - Songs
+  - [Songs](https://github.com/iz00/CS50x/tree/main/week7/labs7/songs)
 - [**Problem Set 7**](https://cs50.harvard.edu/x/2023/psets/7/):
-  - Movies
-  - Fiftyville
+  - [Movies](https://github.com/iz00/CS50x/tree/main/week7/pset7/movies)
+  - [Fiftyville](https://github.com/iz00/CS50x/tree/main/week7/pset7/fiftyville)
 
 ##
 
 ### [Week 8 - HTML, CSS, Javascript](https://cs50.harvard.edu/x/weeks/8/)
 - [**Additional Practice 8**](https://cs50.harvard.edu/x/practice/#after-week-8):
-  - Radio Shack Redo
+  - [Radio Shack Redo](https://github.com/iz00/CS50x/tree/main/week8/practice8/redo)
 - [**Lab 8**](https://cs50.harvard.edu/x/2023/labs/8/):
-  - Trivia
+  - [Trivia](https://github.com/iz00/CS50x/tree/main/week8/labs8/trivia)
 - [**Problem Set 8**](https://cs50.harvard.edu/x/2023/psets/8/):
-  - Homepage
+  - [Homepage](https://github.com/iz00/CS50x/tree/main/week8/pset8/homepage)
 
 ##
 
 ### [Week 9 - Flask](https://cs50.harvard.edu/x/weeks/9/)
 - [**Additional Practice 9**](https://cs50.harvard.edu/x/practice/#after-week-9):
-  - Hello, Flask
+  - [Hello, Flask](https://github.com/iz00/CS50x/tree/main/week9/practice9/helloflask)
 - [**Lab 9**](https://cs50.harvard.edu/x/2023/labs/9/):
-  - Birthdays
+  - [Birthdays](https://github.com/iz00/CS50x/tree/main/week9/labs9/birthdays)
 - [**Problem Set 9**](https://cs50.harvard.edu/x/2023/psets/9/):
-  - Finance
+  - [Finance](https://github.com/iz00/CS50x/tree/main/week9/pset9/finance)
 
 ##
 
