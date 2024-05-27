@@ -47,13 +47,13 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ## Table of Contents
 
-### [Week 0 - Scratch](https://cs50.harvard.edu/x/weeks/0/)
-- [**Problem Set 0**](https://cs50.harvard.edu/x/psets/0/):
+### [Week 0 - Scratch](https://cs50.harvard.edu/x/2024/weeks/0/)
+- [**Problem Set 0**](https://cs50.harvard.edu/x/2024/psets/0/):
   - [Scratch](https://github.com/iz00/CS50x/tree/main/week0/pset0)
 
 ##
 
-### [Week 1 - C](https://cs50.harvard.edu/x/weeks/1/)
+### [Week 1 - C](https://cs50.harvard.edu/x/2024/weeks/1/)
 - [**Additional Practice 1**](https://cs50.harvard.edu/x/practice/#after-week-1):
   - [Debug](https://github.com/iz00/CS50x/tree/main/week1/practice1/debug)
   - [Half](https://github.com/iz00/CS50x/tree/main/week1/practice1/half)
@@ -70,7 +70,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 2 - Arrays](https://cs50.harvard.edu/x/weeks/2/)
+### [Week 2 - Arrays](https://cs50.harvard.edu/x/2024/weeks/2/)
 - [**Additional Practice 2**](https://cs50.harvard.edu/x/practice/#after-week-2):
   - [Hours](https://github.com/iz00/CS50x/tree/main/week2/practice2/hours)
   - [N0 V0w3ls](https://github.com/iz00/CS50x/tree/main/week2/practice2/no-vowels)
@@ -86,7 +86,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 3 - Algorithms](https://cs50.harvard.edu/x/weeks/3/)
+### [Week 3 - Algorithms](https://cs50.harvard.edu/x/2024/weeks/3/)
 - [**Additional Practice 3**](https://cs50.harvard.edu/x/practice/#after-week-3):
   - [Recursive atoi](https://github.com/iz00/CS50x/tree/main/week3/practice3/atoi)
   - [Average Temperatures](https://github.com/iz00/CS50x/tree/main/week3/practice3/temps)
@@ -101,7 +101,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 4 - Memory](https://cs50.harvard.edu/x/weeks/4/)
+### [Week 4 - Memory](https://cs50.harvard.edu/x/2024/weeks/4/)
 - [**Additional Practice 4**](https://cs50.harvard.edu/x/practice/#after-week-4):
   - [Bottom Up](https://github.com/iz00/CS50x/tree/main/week4/practice4/bottomup)
   - [License](https://github.com/iz00/CS50x/tree/main/week4/practice4/license)
@@ -117,7 +117,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 5 - Data Structures](https://cs50.harvard.edu/x/weeks/5/)
+### [Week 5 - Data Structures](https://cs50.harvard.edu/x/2024/weeks/5/)
 - [**Additional Practice 5**](https://cs50.harvard.edu/x/practice/#after-week-5):
   - [Trie](https://github.com/iz00/CS50x/tree/main/week5/practice5/trie)
 - [**Lab 5**](https://cs50.harvard.edu/x/2023/labs/5/):
@@ -127,7 +127,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 6 - Python](https://cs50.harvard.edu/x/weeks/6/)
+### [Week 6 - Python](https://cs50.harvard.edu/x/2024/weeks/6/)
 - [**Additional Practice 6**](https://cs50.harvard.edu/x/practice/#after-week-6):
   - [Bank](https://github.com/iz00/CS50x/tree/main/week6/practice6/bank)
   - [Frank, Ian and Glen's Letters](https://github.com/iz00/CS50x/tree/main/week6/practice6/figlet)
@@ -148,7 +148,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 7 - SQL](https://cs50.harvard.edu/x/weeks/7/)
+### [Week 7 - SQL](https://cs50.harvard.edu/x/2024/weeks/7/)
 - [**Additional Practice 7**](https://cs50.harvard.edu/x/practice/#after-week-7):
   - [Favorites](https://github.com/iz00/CS50x/tree/main/week7/practice7/favorites)
   - [Hall of Prophecy](https://github.com/iz00/CS50x/tree/main/week7/practice7/prophecy)
@@ -160,7 +160,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 8 - HTML, CSS, Javascript](https://cs50.harvard.edu/x/weeks/8/)
+### [Week 8 - HTML, CSS, Javascript](https://cs50.harvard.edu/x/2024/weeks/8/)
 - [**Additional Practice 8**](https://cs50.harvard.edu/x/practice/#after-week-8):
   - [Radio Shack Redo](https://github.com/iz00/CS50x/tree/main/week8/practice8/redo)
 - [**Lab 8**](https://cs50.harvard.edu/x/2023/labs/8/):
@@ -170,7 +170,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 
 ##
 
-### [Week 9 - Flask](https://cs50.harvard.edu/x/weeks/9/)
+### [Week 9 - Flask](https://cs50.harvard.edu/x/2024/weeks/9/)
 - [**Additional Practice 9**](https://cs50.harvard.edu/x/practice/#after-week-9):
   - [Hello, Flask](https://github.com/iz00/CS50x/tree/main/week9/practice9/helloflask)
 - [**Lab 9**](https://cs50.harvard.edu/x/2023/labs/9/):
