@@ -181,7 +181,7 @@ As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
 ##
 
 ### [Final Project](https://cs50.harvard.edu/x/2024/project/)
-- [**BirthdayHub**](https://github.com/iz00/birthday-hub): a web app that allows users to store and manage birthdays.
+- [**YouTube Info Telegram Bot**](https://github.com/iz00/youtube-telegram-bot): A Telegram bot that gets informations on YouTube videos and playlists.
 
 <br><hr>
 
