@@ -19,6 +19,18 @@
 
 <br><hr>
 
+## Certificate
+
+<div align="center">
+
+  <a href="https://certificates.cs50.io/3362c42e-6f55-4c6d-a7b8-86087b24336f.pdf?size=letter">
+    <img src="https://certificates.cs50.io/3362c42e-6f55-4c6d-a7b8-86087b24336f.png?size=A4" alt="CS50x Certificate" />
+  </a>
+
+</div>
+
+<br><hr>
+
 ## Academic Honesty
 
 As per the course's [Policy](https://cs50.harvard.edu/x/honesty/):
